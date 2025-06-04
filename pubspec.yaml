@@ -1,0 +1,18 @@
+name: mqtt_basics_and_client
+description: mqtt_basics_and_client exists to let Dart developers quickly and reliably assemble, manipulate, and inspect MQTT packets—without having to reimplement protocol details from scratch
+version: 0.1.0
+homepage: https://github.com/mskayali/mqtt_basics_and_client
+repository: https://github.com/mskayali/mqtt_basics_and_client
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  collection: ^1.17.0
+  convert: ^3.1.1
+  crypto: ^3.0.3
+  logging: ^1.2.0
+  web_socket_channel: ^3.0.3
+
+dev_dependencies:
+  test: ^1.25.0
+  lints: ^3.0.0
