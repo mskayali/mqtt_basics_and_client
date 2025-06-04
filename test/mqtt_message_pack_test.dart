@@ -2,7 +2,7 @@
 
 import 'dart:typed_data';
 
-import 'package:mqtt_basics_and_client/mqtt_message_pack.dart';
+import 'package:mqtt_basics_and_client/mqtt_basics_and_client.dart';
 import 'package:mqtt_basics_and_client/src/utils/pack_tool.dart';
 import 'package:test/test.dart';
 
