@@ -1,9 +1,9 @@
 
 import 'dart:typed_data';
 
-import 'package:mqtt_basics_and_client/src/core/constants.dart';
-import 'package:mqtt_basics_and_client/src/core/exceptions/protocol_exception.dart';
-import 'package:mqtt_basics_and_client/src/utils/pack_tool.dart';
+import '../../core/constants.dart';
+import '../../core/exceptions/protocol_exception.dart';
+import '../../utils/pack_tool.dart';
 
 /// Handles serialization of MQTT packets to binary format.
 class Pack {

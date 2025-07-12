@@ -1,4 +1,3 @@
-
 import 'dart:convert';
 import 'dart:typed_data';
 
@@ -18,6 +17,14 @@ class UnPackTool {
     final value = utf8.decode(bytes);
     offset += length;
 
+    return {'value': value, 'offset': offset};
+  }
+
+  /// Decodes a 2-byte unsigned integer (Big Endian)
+  static Map<String, dynamic> decodeInt16(Uint8List data, int offset) {
+    final buffer = data.buffer.asByteData();
+    final value = buffer.getUint16(offset);
+    offset += 2;
     return {'value': value, 'offset': offset};
   }
 
